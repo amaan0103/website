@@ -63,6 +63,7 @@ button.navbar-toggle:hover, .icon-bar:hover {
 }
 #home-container {
 	background-image: url("../images/background2.jpg");
+	background-size: cover;
 	text-align: center;
 	padding:0;
 	color:white;
