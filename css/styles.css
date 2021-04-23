@@ -86,14 +86,16 @@ button.navbar-toggle:hover, .icon-bar:hover {
 #socials{
 	padding-bottom:50px;
 }
-#socials .button{
+#socials a{
 	margin-left:25px;
 	margin-right:25px;
 }
-.button:hover {
+.class2:hover {
 	/*color: #48dbfb;*/
 	color:#52e052;
-	transition: 0.5s;
+	/*transition: 0.5s;*/
+	transform:scale(0.8);
+	transition-timing-function: ease-in;
 }
 #about {
 	width: 100%;
