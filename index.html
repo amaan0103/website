@@ -200,13 +200,50 @@
 			</div>
 			<div class="col-md-4 col-sm-6 col-xs-12">
 				<section>
-				<i class="far fa-laugh-wink fa-3x"></i>
-				<h3>Troubling Siblings</h3>
-				<p>Why not ?!</p>
+				<i class="fas fa-utensils fa-3x"></i>
+				<h3>Cooking</h3>
+				<p>Sweets, Savoury or basic lunch / dinner dishes</p>
 				</section>
 			</div>
 		</div>
 	</div><!--end of hobbies-->
+	<!--feedback form-->
+	<div class="container" id="feedbackform">
+	<div id="dummydiv" class="contianer col-sm-6">
+		
+		<h2>Your review means a lot to me...</h2>
+		<i class="far fa-smile-beam fa-3x"></i>
+	</div>
+	<div id="form" class="container col-sm-6">
+		<h2 id="feedback" class="col-sm-12">FEEDBACK</h2>
+		<form id="gform" name="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSfESYmVtFNvWGvmREOWub-qWGcFsvM3DV20XeshimA3fI4YPQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">		
+		<div class="row">
+			<div class="col-sm-4 ">
+				<label for="entry.263992659">Name: </label>
+			</div>
+			<div class="col-sm-8 ">
+				<input type="text" id="entry.263992659" name="entry.263992659" placeholder="Your Name..." required>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4">
+				<label for="entry.1553720589">Review: </label>
+			</div>
+			<div class="col-sm-8">
+				<textarea id="entry.1553720589" name="entry.1553720589" placeholder="Write something..." required></textarea>
+			</div>
+		</div>
+		<div class="row">
+			<input type="submit" value="Submit">
+		</div>
+		</form>
+		<div id="thankyou">
+			<h2 id="thankyouH2"></h2>
+			<i id="wink" class="far fa-smile fa-3x"></i>
+		</div>
+		<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+		</div>
+	</div><!--end feedback form-->							  
 	<footer>
 		<div id="foot" class="container-fluid">
 			<div class="row">
