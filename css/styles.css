@@ -187,6 +187,9 @@ img {
 	border: 2px solid green;
 	border-radius: 15px 15px 15px 15px;
 }
+#achievements section h3 {
+	text-align: center;
+}
 #achievements section ul {
 	margin-left:15px;
 }
@@ -301,6 +304,9 @@ footer p {
 		text-align: center;
 		font-weight:bold;
 	}
+	#header-nav {
+		padding-top: 20px;
+	}
 }
 @media (max-width: 400px) {
 	#clickme{
@@ -316,7 +322,10 @@ footer p {
 		width:25%;
 		text-align: center;
 		font-weight:bold;
-	}	
+	}
+	#header-nav {
+		padding-top: 20px;
+	}
 }
 #image-img>div>img{
 	width:100%;
