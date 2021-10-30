@@ -80,12 +80,61 @@ a, a:hover, a:focus, a:active {
 	text-align: center;
 	font-weight:bold;
 }
-button.navbar-toggle, .icon-bar {
+/*button.navbar-toggle, .icon-bar {
 	border: 2px solid white;
 }
-button.navbar-toggle:hover, .icon-bar:hover {
+button.navbar-toggle,:hover, .icon-bar:hover {
 	border: 2px solid #52e052;
 	transition:0.5;
+}*/
+.icon-bar {
+	/*border: 2px solid white;*/
+	width: 18px;
+	height:2px;
+	background-color: white;
+	display: block;
+}
+.navbar-toggle.x .icon-bar:nth-of-type(1) {
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-webkit-transform-origin: 10% 10%;
+	-ms-transform-origin: 10% 10%;
+	transform-origin: 10% 10%;
+}
+
+.navbar-toggle.x .icon-bar:nth-of-type(2) {
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+.navbar-toggle.x .icon-bar:nth-of-type(3) {
+	-webkit-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	-webkit-transform-origin: 10% 90%;
+	-ms-transform-origin: 10% 90%;
+	transform-origin: 10% 90%;
+}
+
+.navbar-toggle.x.collapsed .icon-bar:nth-of-type(1) {
+	-webkit-transform: rotate(0);
+	-ms-transform: rotate(0);
+	transform: rotate(0);
+}
+
+.navbar-toggle.x.collapsed .icon-bar:nth-of-type(2) {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.navbar-toggle.x.collapsed .icon-bar:nth-of-type(3) {
+	-webkit-transform: rotate(0);
+	-ms-transform: rotate(0);
+	transform: rotate(0);
+}
+.navbar-toggle:hover .icon-bar, .navbar-toggle:active .icon-bar {
+	background-color: #52e052;
 }
 #home-container {
 	background: url("../images/background1.jpg") ;
